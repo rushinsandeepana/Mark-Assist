@@ -23,3 +23,17 @@ code {
 .btn{
   background-color: #2F88FF;
 }
+.sidebar{
+  height: calc(100vh - 56px);
+}
+.outer{
+  position: absolute;
+  left: -500px;
+  transition-duration: 1s;
+
+}
+.inner{
+  position: absolute;
+  transition-duration: 1s;
+  left: 0;
+}

@@ -4,6 +4,8 @@ import QuestionsPage from "./Pages/QuestionsPage";
 import EssayPage from './Pages/EssayPage';
 import McqPage from './Pages/McqPage';
 import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Dashboard from './Pages/Dashboard';
 import './Components/TopBar.css';
 
 function App(){
@@ -13,6 +15,8 @@ function App(){
       <Routes>
         <Route path="/" element={<QuestionsPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="essayPage" element={<EssayPage />} />
         <Route path="mcqPage" element={<McqPage />} />
       </Routes>

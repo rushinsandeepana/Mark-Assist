@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from '../Components/NavBar'
 
 function EssayPage() {
   return (
     <div>
-      Essay page
+      <NavBar/>
     </div>
   )
 }
