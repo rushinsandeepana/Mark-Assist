@@ -29,11 +29,14 @@ code {
 .outer{
   position: absolute;
   left: -500px;
-  transition-duration: 1s;
+  transition-duration: 0.75s;
 
 }
 .inner{
   position: absolute;
-  transition-duration: 1s;
+  transition-duration: 0.75s;
   left: 0;
+}
+.sidebarCollapsed{
+
 }
