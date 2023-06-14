@@ -8,7 +8,7 @@ import './Components/TopBar.css';
 function App(){
   return(
     <div>
-      <TopBar />
+      {/* <TopBar /> */}
       <Routes>
         <Route path="/" element={<QuestionsPage />} />
         <Route path="essayPage" element={<EssayPage />} />
